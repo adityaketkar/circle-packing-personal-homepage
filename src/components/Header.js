@@ -3,11 +3,11 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
+    <div className="logo backdrop-blur">
       <span className="icon fa-diamond"></span>
     </div>
-    <div className="content">
-      <div className="inner">
+    <div className="content backdrop-blur">
+      <div className="inner backdrop-blur">
         <h1>Aditya Ketkar</h1>
         <p>
           Recent graduate from BITS Pilani. Passionate about Space Technology, Psychology and Open Source.<br/>{' '}
@@ -15,7 +15,7 @@ const Header = props => (
         </p>
       </div>
     </div>
-    <nav>
+    <nav className="backdrop-blur">
       <ul>
         <li>
           <button
