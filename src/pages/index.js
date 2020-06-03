@@ -1,11 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
-
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import Animation from '../components/Animation'
 
 class IndexPage extends React.Component {
+
+
   constructor(props) {
     super(props)
     this.state = {
@@ -13,12 +15,15 @@ class IndexPage extends React.Component {
       timeout: false,
       articleTimeout: false,
       article: '',
-      loading: 'is-loading'
+      loading: 'is-loading',
+      width: 0, 
+      height: 0
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount () {
@@ -26,6 +31,8 @@ class IndexPage extends React.Component {
         this.setState({loading: ''});
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
   }
 
   componentWillUnmount () {
@@ -33,7 +40,13 @@ class IndexPage extends React.Component {
         clearTimeout(this.timeoutId);
     }
     document.removeEventListener('mousedown', this.handleClickOutside);
+    window.removeEventListener('resize', this.updateWindowDimensions);
   }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+  
 
   setWrapperRef(node) {
     this.wrapperRef = node;
@@ -103,9 +116,14 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
-            <Footer timeout={this.state.timeout} />
+            
           </div>
-          <div id="bg"></div>
+          <div id='bg' >
+              <Animation width={this.state.width} height={this.state.height}></Animation>
+          </div>
+          <div style={{"position":"absolute", "width":"100%", "alignItems":"center", "bottom":"10px"}}>
+          <Footer timeout={this.state.timeout} />
+          </div>
         </div>
       </Layout>
     )

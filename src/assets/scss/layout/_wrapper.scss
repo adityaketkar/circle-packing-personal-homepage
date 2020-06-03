@@ -10,11 +10,17 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');
-		@include vendor('justify-content', 'space-between');
-		position: relative;
-		min-height: 100vh;
-		width: 100%;
-		padding: 4rem 2rem;
+		@include vendor('justify-content', 'center');
+		position: absolute;
+		// justify-content: center;
+		top:5%;
+		// bottom: 0;
+		left: 5%;
+		// min-height: 100vh;
+		width: 90%;
+		height: 90%;
+		// padding: 4rem 2rem;
+		// border: 1px solid blue;
 		z-index: 3;
 
 		&:before {

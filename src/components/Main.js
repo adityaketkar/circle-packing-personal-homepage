@@ -54,25 +54,25 @@ class Main extends React.Component {
           <span className="image main">
             <img src={work} alt="" />
           </span>
-          <p>
+          {/* <p> */}
             I am currently full time Software Developer Engineer at Microsoft.
             <br/><br/>
             Previously, I have interned with :
-            <ul>
+          {/* </p> */}
+          <ul>
             <li> Amazon India<br/></li>
             <li><a target="_blank" href="https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view" > North-Eastern Space Application Center (ISRO) </a><br/></li>
             <li><a target="_blank" href="https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing" > Computer Vision Center, Universitat Autonoma de Barcelona </a><br/></li>
             </ul>
-          </p>
-          <p>
+          {/* <p> */}
             Some of the side projects I did can be found here : 
-            <ul>
+          {/* </p> */}
+          <ul>
             <li><a target="_blank" href="https://github.com/adityaketkar/eisenlist" > EisenList </a><br/></li>
             <li><a target="_blank" href="https://bitsdelor.wixsite.com/delor" > DelOr </a><br/></li>
             <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Alexa Music Companion </a><br/></li>
             <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Gatsby Personal Webpage </a><br/></li>
             </ul>
-          </p>
           {close}
         </article>
 
@@ -103,14 +103,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:adityaketkar848@gmail.com" enctype="text/plain">
+          <form method="post" action="mailto:adityaketkar848@gmail.com" type="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" required />
+              <input type="email" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>

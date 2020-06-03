@@ -18,22 +18,27 @@
       'opacity #{_duration(article)} ease-in-out'
     )
   );
-  background-image: -moz-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: -webkit-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: -ms-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
-  background-image: radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0) 55%
-  );
+  background: rgba(255, 255, 255, 0.228);
+  // border: 1px solid black;
+  
+  
+
+  // background-image: -moz-radial-gradient(
+  //   rgba(0, 0, 0, 0.25) 25%,
+  //   rgba(0, 0, 0, 0) 55%
+  // );
+  // background-image: -webkit-radial-gradient(
+  //   rgba(0, 0, 0, 0.25) 25%,
+  //   rgba(0, 0, 0, 0) 55%
+  // );
+  // background-image: -ms-radial-gradient(
+  //   rgba(0, 0, 0, 0.25) 25%,
+  //   rgba(0, 0, 0, 0) 55%
+  // );
+  // background-image: radial-gradient(
+  //   rgba(0, 0, 0, 0.25) 25%,
+  //   rgba(0, 0, 0, 0) 55%
+  // );
   max-width: 100%;
   text-align: center;
 
@@ -63,6 +68,7 @@
   }
 
   .logo {
+    backdrop-filter: blur(5px);
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
@@ -77,6 +83,7 @@
   }
 
   .content {
+    backdrop-filter: blur(5px);
     border-style: solid;
     border-color: _palette(border);
     border-top-width: _size(border-width);
@@ -111,6 +118,7 @@
   }
 
   nav {
+    backdrop-filter: blur(10px);
     ul {
       @include vendor('display', 'flex');
       margin-bottom: 0;
@@ -263,8 +271,8 @@
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
 
-          & {
-            border: 0;
+          &:first-child {
+            border-top: 0;
           }
 
           a {
