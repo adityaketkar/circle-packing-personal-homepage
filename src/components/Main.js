@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import intro from '../images/intro.jpg'
+import work from '../images/work.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -28,29 +28,17 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={intro} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          I’m a Computer Science major by day, a professional Table Tennis player by evening,
+          <br/> a functional wantrepreneur brainstorming solutions to interesting problems with friends by midnight and a hustler always. 
+          <br/>If you can’t find me, it’s because I’m already cycling or hiking, off to a tournament, or studying for an exam!
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.<br/><br/> I love the way the concept of "work" has evolved over the past decades, and hence would love to travel and work together whenever I can.<br/>
           </p>
           {close}
         </article>
@@ -64,22 +52,26 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={work} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            I am currently full time Software Developer Engineer at Microsoft.
+            <br/><br/>
+            Previously, I have interned with :
+            <ul>
+            <li> Amazon India<br/></li>
+            <li><a target="_blank" href="https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view" > North-Eastern Space Application Center (ISRO) </a><br/></li>
+            <li><a target="_blank" href="https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing" > Computer Vision Center, Universitat Autonoma de Barcelona </a><br/></li>
+            </ul>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Some of the side projects I did can be found here : 
+            <ul>
+            <li><a target="_blank" href="https://github.com/adityaketkar/eisenlist" > EisenList </a><br/></li>
+            <li><a target="_blank" href="https://bitsdelor.wixsite.com/delor" > DelOr </a><br/></li>
+            <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Alexa Music Companion </a><br/></li>
+            <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Gatsby Personal Webpage </a><br/></li>
+            </ul>
           </p>
           {close}
         </article>
@@ -91,18 +83,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major"> CV </h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Online hosted CV : <a href="https://visualcv.com/adityaketkar" >CV </a>
+            <br/>
+            1-page Resume : <a href="https://drive.google.com/file/d/1yhfRELr2NYqAjbajnWGX0SfFmoK3r7d7/view?usp=sharing" >Resume</a>
           </p>
           {close}
         </article>
@@ -115,14 +103,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="mailto:adityaketkar848@gmail.com" enctype="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -140,28 +128,44 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/ketkar_a"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/aditya.ketkar.520" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a href="https://medium.com/@ketkaraditya" className="icon fa-medium">
+                <span className="label">Medium</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/adityaketkar"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/adityaketkar"
+                className="icon fa-linkedin"
+              >
+                <span className="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://technoshblog.wordpress.com/"
+                className="icon fa-wordpress"
+              >
+                <span className="label">Blog(deprecated)</span>
               </a>
             </li>
           </ul>
