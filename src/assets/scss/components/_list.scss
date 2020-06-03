@@ -17,12 +17,12 @@
 	}
 
 	ul {
-		list-style: disc;
+		// list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		// padding-left: 1em;
 
 		li {
-			padding-left: 0.5em;
+			// padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -30,7 +30,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid _size(border-width) _palette(border);
+				// border-top: solid _size(border-width) _palette(border);
 				padding: 0.5em 0;
 
 				&:first-child {

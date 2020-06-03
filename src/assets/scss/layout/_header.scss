@@ -115,13 +115,16 @@
       @include vendor('display', 'flex');
       margin-bottom: 0;
       list-style: none;
-      padding-left: 0;
+      // padding-left: 0;
       border: solid _size(border-width) _palette(border);
       border-radius: _size(border-radius);
 
       li {
-        padding-left: 0;
-        border-left: solid _size(border-width) _palette(border);
+        padding: auto;
+        text-align: center;
+        display: block;
+        margin: auto;
+        // border-left: solid _size(border-width) _palette(border);
 
         &:first-child {
           border-left: 0;
@@ -139,6 +142,7 @@
           font-family: _font(family);
           border: none;
           box-shadow: none;
+          text-align: center;
 
           &:hover,
           &:focus {
@@ -259,8 +263,8 @@
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
 
-          &:first-child {
-            border-top: 0;
+          & {
+            border: 0;
           }
 
           a {
