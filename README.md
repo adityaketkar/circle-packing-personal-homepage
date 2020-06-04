@@ -116,18 +116,18 @@ gatsby develop
 ```
 
 
-
 <!-- USAGE EXAMPLES -->
 ## Features
 ### Responsive Homepage 
-<kbd><img src="images/responsive_dnd.gif" /></kbd>
+<kbd><img src="images/responsive.gif" /></kbd>
+
 
 ### Compatible with widescreens as well as mobile devices
-<kbd><img src="images/add_edit_delete.gif" /></kbd>
+<kbd><img src="images/mobile.gif" /></kbd>
+
 
 ### Aesthetic!
-(support for other calenders coming in subsequent iterations)
-<kbd><img src="images/export_to_calendar.gif" /></kbd>
+<kbd><img src="images/aesthatic.gif" /></kbd>
 
 
 <!-- ROADMAP -->
