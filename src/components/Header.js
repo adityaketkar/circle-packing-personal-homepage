@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import main from "../images/main.jpg";
+import JSONData from "../content/mycontent.json"
+
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -14,10 +16,11 @@ const Header = props => (
     </div>
     <div className="content backdrop-blur">
       <div className="inner backdrop-blur">
-        <h1>Aditya Ketkar</h1>
+        <h1>{JSONData.Name}</h1>
         <p>
-          Recent graduate from BITS Pilani. Passionate about Space Technology, Cognitive Modelling and Open Source.<br/>{' '}
-          <br/> I grab every chance I get to travel, learn and create.{' '}
+          {JSONData.Description.map((item,index) => {
+            return (<div><br/>{item}</div>)
+          })}
         </p>
       </div>
     </div>
