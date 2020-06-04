@@ -72,7 +72,7 @@ Of course, no software is perfect. Let me know your suggestions and feature requ
 If you just want to use the template, no need to clone/download this repo. The following steps show how to launch your own website : 
 1. Click the following button 👇 (Make sure you have a Github account before starting)
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/adityaketkar/circle-packing-personal-homepage"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 2. After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. 
 
