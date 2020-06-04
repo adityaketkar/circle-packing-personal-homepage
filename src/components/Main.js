@@ -21,6 +21,8 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        {/* <div style={{"position":"absolute", "top": "1px"
+        }}> */}
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -30,18 +32,21 @@ class Main extends React.Component {
         >
           <h2 className="major">About Me</h2>
           <span className="image main">
-            <img src={intro} alt="" />
+            <div >
+              <img src={intro} alt="" />
+            </div>
           </span>
           <p>
-          I’m a Computer Science major by day, a professional Table Tennis player by evening,
-          <br/> a functional wantrepreneur brainstorming solutions to interesting problems with friends by midnight and a hustler always. 
-          <br/>If you can’t find me, it’s because I’m already cycling or hiking, off to a tournament, or studying for an exam!
+          I’m a Computer Science major by day, a Table Tennis player by evening,
+           a functional wantrepreneur by midnight and a hustler always. 
+          <br/>If you can’t find me, it’s because I’m already cycling, off to a hike, or studying for an exam!
           </p>
           <p>
           I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.<br/><br/> I love the way the concept of "work" has evolved over the past decades, and hence would love to travel and work together whenever I can.<br/>
           </p>
           {close}
         </article>
+        {/* </div> */}
 
         <article
           id="work"
@@ -84,13 +89,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major"> CV </h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          {/* <span className="image main">
+            <img  />
+          </span> */}
           <p>
-            Online hosted CV : <a href="https://visualcv.com/adityaketkar" >CV </a>
-            <br/>
-            1-page Resume : <a href="https://drive.google.com/file/d/1yhfRELr2NYqAjbajnWGX0SfFmoK3r7d7/view?usp=sharing" >Resume</a>
+            I am always open to collaborations with impactful work. Feel free to reach out if you want to work together :)
+            <br/><br/>
+            <div style={{"display":"flex", "justifyContent":"space-around"}}>
+              <a href="https://www.visualcv.com/aditya-ketkar/" >CV </a>
+              <a href="https://drive.google.com/file/d/1yhfRELr2NYqAjbajnWGX0SfFmoK3r7d7/view?usp=sharing" >Resume</a>
+            </div>
+             
+             
           </p>
           {close}
         </article>

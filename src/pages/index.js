@@ -106,7 +106,10 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-          <div id="wrapper">
+          <div id="wrapper" onMouseDown={this.speedUp}
+          onMouseUp={this.speedDown}
+          onTouchStart={this.speedUp}
+          onTouchEnd={this.speedDown}>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}

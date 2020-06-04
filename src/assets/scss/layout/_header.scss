@@ -265,12 +265,15 @@
     }
 
     nav {
+      background-color: rgba(255, 255, 255, .6);
       ul {
+        background-color: rgba(255, 255, 255, .6);
         @include vendor('flex-direction', 'column');
         min-width: 10rem;
         max-width: 100%;
 
         li {
+          background-color: rgba(255, 255, 255, .6);
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
 

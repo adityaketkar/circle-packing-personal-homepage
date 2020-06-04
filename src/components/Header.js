@@ -1,16 +1,22 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import main from "../images/main.jpg";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo backdrop-blur">
-      <span className="icon fa-diamond"></span>
+      {/* <span className="icon fa-diamond"></span> */}
+      <img src={main} style={{"maxWidth": "100%",
+        "maxHeight": "100%",
+        "display": "block",
+        "borderRadius": "50%"
+}}></img>
     </div>
     <div className="content backdrop-blur">
       <div className="inner backdrop-blur">
         <h1>Aditya Ketkar</h1>
         <p>
-          Recent graduate from BITS Pilani. Passionate about Space Technology, Psychology and Open Source.<br/>{' '}
+          Recent graduate from BITS Pilani. Passionate about Space Technology, Cognitive Modelling and Open Source.<br/>{' '}
           <br/> I grab every chance I get to travel, learn and create.{' '}
         </p>
       </div>
