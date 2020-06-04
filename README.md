@@ -75,9 +75,9 @@ If you just want to use the template, no need to clone/download this repo. The f
 2. After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. 
 
 3. The site should now be live at the URL shown to you by Netlify. Let's now change the content of the site to make it YOURS :)
-First things first, upload the photos you want to use in your website to [imgur](https://imgur.com/upload).
+Firstly, upload all the photos you want to use in your website to [imgur](https://imgur.com/upload). Take a look at the [demo](https://adityaketkar.netlify.app/) to decide what photos you would like to use.
 
-4. Now, open your github account and navigate to the cloned repository (of this project) that Netlify made for you. Go to 
+4. Now, open your github account and navigate to the cloned repository (a clone of this project) that Netlify made for you. Then go to 
 
 ```src > content > mycontent.json```
 
@@ -90,7 +90,9 @@ First things first, upload the photos you want to use in your website to [imgur]
 
 7. When done with editing, check the ``` Commit directly to the master branch ``` radio box, add a relevant commit message and click on ``` Commit Changes ```
 
-8. All done! wait for 5 minutes, and visit again the URL given to you by Netlify. 
+8. All done! wait for 5 minutes, and visit the URL given to you by Netlify again to confirm changes. 
+	
+9. Leave a ⭐️ on this repo and share this with people you think can benefit from this project 🙂
 
 
 ## For Developers

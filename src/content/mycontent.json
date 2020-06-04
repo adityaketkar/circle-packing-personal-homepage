@@ -23,7 +23,7 @@
 	"InternshipsStartLine": "Previously, I have interned with :",
 	"InternShips": [{
 			"name": "Amazon India",
-			"link": ""
+			"link": "#"
 		},
 		{
 			"name": "North-Eastern Space Application Center (ISRO)",
@@ -49,7 +49,7 @@
 		},
 		{
 			"name": "Gatsby Personal Webpage",
-			"link": ""
+			"link": "https://github.com/adityaketkar/circle-packing-personal-homepage"
 		}
 	],
 
