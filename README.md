@@ -127,7 +127,7 @@ gatsby develop
 
 
 ### Aesthetic!
-<kbd><img src="images/aesthatic.gif" /></kbd>
+<kbd><img src="images/aesthetic.gif" /></kbd>
 
 
 <!-- ROADMAP -->
