@@ -1,8 +1,68 @@
 {
-    "title": "Aditya Ketkar using JSON",
-    "Name": "Aditya Ketkar (JSON NAME)",
-    "Description": [
-        "Recent graduate from BITS Pilani. Passionate about Space Technology, Cognitive Modelling and Open Source.", 
-        "I grab every chance I get to travel, learn and create.(JSON)"
-    ] 
+	"Title": "Aditya Ketkar | Personal Webpage",
+	"Name": "Aditya Ketkar",
+	"Description": [
+		"Recent graduate from BITS Pilani. Passionate about Space Technology, Cognitive Modelling and Open Source.",
+		"I grab every chance I get to travel, learn and create."
+	],
+	"MainImage": "https://i.imgur.com/yQZNGdm.jpg",
+
+	"WorkContent": [
+		"I am currently full time Software Developer Engineer at Microsoft."
+	],
+	"WorkImage": "https://i.imgur.com/BHt1YKg.png",
+
+	"AboutImage": "https://i.imgur.com/5sOLND6.jpg",
+	"AboutContent": [
+		"I’m a Computer Science major by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
+		"If you can’t find me, it’s because I’m already cycling, off to a hike, or studying for an exam",
+		"I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.",
+		"I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
+	],
+
+	"InternshipsStartLine": "Previously, I have interned with :",
+	"InternShips": [{
+			"name": "Amazon India",
+			"link": ""
+		},
+		{
+			"name": "North-Eastern Space Application Center (ISRO)",
+			"link": "https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view"
+		},
+		{
+			"name": "Computer Vision Center, Universitat Autonoma de Barcelona",
+			"link": "https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing"
+		}
+	],
+	"ProjectsStartLine": "Some of the side projects I did can be found here :",
+	"Projects": [{
+			"name": "EisenList",
+			"link": "https://github.com/adityaketkar/eisenlist"
+		},
+		{
+			"name": "DelOr",
+			"link": "https://bitsdelor.wixsite.com/delor"
+		},
+		{
+			"name": "Alexa Music Companion",
+			"link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
+		},
+		{
+			"name": "Gatsby Personal Webpage",
+			"link": ""
+		}
+	],
+
+	"CVStartLine": "I am always open to collaborations with impactful work. Feel free to reach out if you want to work together :) ",
+	"CV": "https://www.visualcv.com/aditya-ketkar/",
+	"Resume": "https://drive.google.com/file/d/1yhfRELr2NYqAjbajnWGX0SfFmoK3r7d7/view?usp=sharing",
+
+	"emailid": "mailto:adityaketkar848@gmail.com",
+	"linkedin": "https://linkedin.com/in/adityaketkar",
+	"wordpress": "https://technoshblog.wordpress.com/",
+	"facebook": "https://www.facebook.com/aditya",
+	"github": "https://github.com/adityaketkar",
+	"instagram": "http://www.adityaketkar.me",
+	"twitter": "https://twitter.com/ketkar_a",
+	"medium": "https://medium.com/@ketkaraditya"
 }

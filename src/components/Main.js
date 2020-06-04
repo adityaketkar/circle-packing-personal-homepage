@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import intro from '../images/intro.jpg'
-import work from '../images/work.png'
-import pic03 from '../images/pic03.jpg'
+import JSONData from "../content/mycontent.json"
 
 class Main extends React.Component {
   render() {
@@ -21,8 +19,6 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-        {/* <div style={{"position":"absolute", "top": "1px"
-        }}> */}
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -33,20 +29,22 @@ class Main extends React.Component {
           <h2 className="major">About Me</h2>
           <span className="image main">
             <div >
-              <img src={intro} alt="" />
+              <img src={JSONData.AboutImage} alt="" />
             </div>
           </span>
           <p>
-          I’m a Computer Science major by day, a Table Tennis player by evening,
+          {JSONData.AboutContent.map((item) => {
+            return (<div><br/>{item}</div>)
+          })}
+          {/* I’m a Computer Science major by day, a Table Tennis player by evening,
            a functional wantrepreneur by midnight and a hustler always. 
           <br/>If you can’t find me, it’s because I’m already cycling, off to a hike, or studying for an exam!
           </p>
           <p>
-          I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.<br/><br/> I love the way the concept of "work" has evolved over the past decades, and hence would love to travel and work together whenever I can.<br/>
+          I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.<br/><br/> I love the way the concept of "work" has evolved over the past decades, and hence would love to travel and work together whenever I can.<br/> */}
           </p>
           {close}
         </article>
-        {/* </div> */}
 
         <article
           id="work"
@@ -57,27 +55,39 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={work} alt="" />
+            <img src={JSONData.WorkImage} alt="" />
           </span>
           {/* <p> */}
-            I am currently full time Software Developer Engineer at Microsoft.
+            {JSONData.WorkContent}
             <br/><br/>
-            Previously, I have interned with :
+            {JSONData.InternshipsStartLine}
+            <ul>
+              {JSONData.InternShips.map((item) => {
+              return (<li><a href={item.link}>{item.name}</a><br/></li>)
+            })}
+            </ul>
           {/* </p> */}
-          <ul>
+          {/* <ul>
             <li> Amazon India<br/></li>
             <li><a target="_blank" href="https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view" > North-Eastern Space Application Center (ISRO) </a><br/></li>
             <li><a target="_blank" href="https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing" > Computer Vision Center, Universitat Autonoma de Barcelona </a><br/></li>
-            </ul>
+            </ul> */}
           {/* <p> */}
-            Some of the side projects I did can be found here : 
+            {/* Some of the side projects I did can be found here :  */}
           {/* </p> */}
-          <ul>
+            <br/><br/>
+            {JSONData.ProjectsStartLine}
+            <ul>
+              {JSONData.Projects.map((item) => {
+              return (<li><a href={item.link}>{item.name}</a><br/></li>)
+            })}
+            </ul>
+          {/* <ul>
             <li><a target="_blank" href="https://github.com/adityaketkar/eisenlist" > EisenList </a><br/></li>
             <li><a target="_blank" href="https://bitsdelor.wixsite.com/delor" > DelOr </a><br/></li>
             <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Alexa Music Companion </a><br/></li>
             <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Gatsby Personal Webpage </a><br/></li>
-            </ul>
+            </ul> */}
           {close}
         </article>
 
@@ -93,11 +103,11 @@ class Main extends React.Component {
             <img  />
           </span> */}
           <p>
-            I am always open to collaborations with impactful work. Feel free to reach out if you want to work together :)
+            {JSONData.CVStartLine}
             <br/><br/>
             <div style={{"display":"flex", "justifyContent":"space-around"}}>
-              <a href="https://www.visualcv.com/aditya-ketkar/" >CV </a>
-              <a href="https://drive.google.com/file/d/1yhfRELr2NYqAjbajnWGX0SfFmoK3r7d7/view?usp=sharing" >Resume</a>
+              <a href={JSONData.CV} >CV </a>
+              <a href={JSONData.Resume} >Resume</a>
             </div>
              
              
@@ -113,7 +123,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:adityaketkar848@gmail.com" type="text/plain">
+          <form method="post" action={JSONData.emailid} type="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -138,25 +148,25 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/ketkar_a"
+                href={JSONData.twitter}
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/aditya.ketkar.520" className="icon fa-facebook">
+              <a href={JSONData.facebook} className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://medium.com/@ketkaraditya" className="icon fa-medium">
+              <a href={JSONData.medium} className="icon fa-medium">
                 <span className="label">Medium</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/adityaketkar"
+                href={JSONData.github}
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
@@ -164,7 +174,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://linkedin.com/in/adityaketkar"
+                href={JSONData.linkedin}
                 className="icon fa-linkedin"
               >
                 <span className="label">Linkedin</span>
@@ -172,7 +182,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://technoshblog.wordpress.com/"
+                href={JSONData.wordpress}
                 className="icon fa-wordpress"
               >
                 <span className="label">Blog(deprecated)</span>
