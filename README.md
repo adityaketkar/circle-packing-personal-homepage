@@ -16,8 +16,6 @@
     <img src="images/logo.png" alt="Logo" width="60%" height="40%">
   </a>
 
-  <!-- <h3 align="center">EisenList</h3> -->
-
   <p align="center">
     A Customizable Artistic Personal Webpage Template
     <br />
@@ -133,7 +131,7 @@ gatsby develop
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/adityaketkar/circle-packing-personal-homepage/issues) for a list of proposed features (and known issues).
 
 
 
