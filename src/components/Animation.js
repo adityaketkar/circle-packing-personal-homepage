@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import Loadable  from "@loadable/component"
 
 var circles;
@@ -60,7 +60,7 @@ function Circle(x, y, p5){
     }
   }
 
-export default class Animation extends Component {
+export default class Animation extends PureComponent {
   
   setup = (p5, parent) => {
     console.log(this.props.width, this.props.height);

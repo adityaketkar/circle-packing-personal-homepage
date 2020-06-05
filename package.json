@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
+  "name": "circle-packing-personal-homepage",
   "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Aditya Ketkar",
   "dependencies": {
     "@loadable/component": "^5.12.0",
     "gatsby": "^2.19.5",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/adityaketkar/circle-packing-personal-homepage"
   }
 }

@@ -13,6 +13,8 @@ class Main extends React.Component {
       ></div>
     )
 
+    // let closeStyle = {"display":"inline-block","position":"absolute", "top":"0px", "right":"0px", "margin-right":"3%","margin-top":"3%", "cursor":"pointer"};
+
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -32,18 +34,16 @@ class Main extends React.Component {
               <img src={JSONData.AboutImage} alt="" />
             </div>
           </span>
-          <p>
+          {/* <p> */}
           {JSONData.AboutContent.map((item) => {
             return (<div><br/>{item}</div>)
           })}
-          {/* I’m a Computer Science major by day, a Table Tennis player by evening,
-           a functional wantrepreneur by midnight and a hustler always. 
-          <br/>If you can’t find me, it’s because I’m already cycling, off to a hike, or studying for an exam!
-          </p>
-          <p>
-          I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.<br/><br/> I love the way the concept of "work" has evolved over the past decades, and hence would love to travel and work together whenever I can.<br/> */}
-          </p>
+          {/* </p> */}
+          {/* not visible in gatsby build */}
           {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
         </article>
 
         <article
@@ -57,7 +57,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={JSONData.WorkImage} alt="" />
           </span>
-          {/* <p> */}
+
             {JSONData.WorkContent}
             <br/><br/>
             {JSONData.InternshipsStartLine}
@@ -66,15 +66,6 @@ class Main extends React.Component {
               return (<li><a href={item.link}>{item.name}</a><br/></li>)
             })}
             </ul>
-          {/* </p> */}
-          {/* <ul>
-            <li> Amazon India<br/></li>
-            <li><a target="_blank" href="https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view" > North-Eastern Space Application Center (ISRO) </a><br/></li>
-            <li><a target="_blank" href="https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing" > Computer Vision Center, Universitat Autonoma de Barcelona </a><br/></li>
-            </ul> */}
-          {/* <p> */}
-            {/* Some of the side projects I did can be found here :  */}
-          {/* </p> */}
             <br/><br/>
             {JSONData.ProjectsStartLine}
             <ul>
@@ -82,13 +73,12 @@ class Main extends React.Component {
               return (<li><a href={item.link}>{item.name}</a><br/></li>)
             })}
             </ul>
-          {/* <ul>
-            <li><a target="_blank" href="https://github.com/adityaketkar/eisenlist" > EisenList </a><br/></li>
-            <li><a target="_blank" href="https://bitsdelor.wixsite.com/delor" > DelOr </a><br/></li>
-            <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Alexa Music Companion </a><br/></li>
-            <li><a target="_blank" href="https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7" > Gatsby Personal Webpage </a><br/></li>
-            </ul> */}
+          
+          {/* not visible in gatsby build */}
           {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
         </article>
 
         <article
@@ -102,17 +92,19 @@ class Main extends React.Component {
           {/* <span className="image main">
             <img  />
           </span> */}
-          <p>
+          {/* <p> */}
             {JSONData.CVStartLine}
             <br/><br/>
             <div style={{"display":"flex", "justifyContent":"space-around"}}>
               <a href={JSONData.CV} >CV </a>
               <a href={JSONData.Resume} >Resume</a>
             </div>
-             
-             
-          </p>
+          {/* </p> */}
+          {/* not visible in gatsby build */}
           {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
         </article>
 
         <article
@@ -189,7 +181,11 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          {/* not visible in gatsby build */}
           {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
         </article>
       </div>
     )

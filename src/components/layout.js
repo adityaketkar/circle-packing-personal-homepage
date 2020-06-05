@@ -1,3 +1,4 @@
+import '../assets/scss/main.scss'
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
@@ -5,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import JSONData from "../content/mycontent.json"
 
 
-import '../assets/scss/main.scss'
+
 
 const Layout = ({ children, location }) => {
 
