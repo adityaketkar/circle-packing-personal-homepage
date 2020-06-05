@@ -5,8 +5,9 @@ const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
         
         <p className="copyright">
-         Built with <a href="http://gatsby-dimension.surge.sh/">Gatsby.js</a> and ❤️ by <a href="http://www.adityaketkar.me"> Aditya Ketkar </a> <br/>
-         Get you own version  <a href="https://github.com/adityaketkar/circle-packing-personal-homepage"> here </a><br/>
+         Built with <a href="http://gatsby-dimension.surge.sh">Gatsby.js</a> and ❤️ by <a href="http://www.adityaketkar.me"> Aditya Ketkar</a>  
+        <br/>
+        Get your own version of this webpage <a href="https://github.com/adityaketkar/circle-packing-personal-homepage"> here </a>
         </p>
     </footer>
 )

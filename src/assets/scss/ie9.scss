@@ -17,6 +17,12 @@
 		}
 	}
 
+	#bgcanvas {
+		&:before {
+			background: _palette(bg-overlay);
+		}
+	}
+
 /* Header */
 
 	#header {

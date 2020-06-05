@@ -10,6 +10,10 @@
 		background: rgba(19, 21, 25, 0.5);
 	}
 
+	#bgcanvas:before {
+		background: rgba(19, 21, 25, 0.5);
+	}
+
 /* Header */
 
 	#header .logo {

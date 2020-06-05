@@ -94,6 +94,7 @@ Firstly, upload all the photos you want to use in your website to [imgur](https:
 	
 9. Leave a ⭐️ on this repo and share this with people you think can benefit from this project 🙂
 
+**Note** : Change the ```BackgroundURL``` value in ```mycontent.json``` to add a custom background (use imgur to host the background image). Leave it to ```""``` to use the default circle-packing background.
 
 ## For Developers
 If you want to contribute to the project or just compile it locally in development mode, follow these steps : 

@@ -4,6 +4,8 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 import Animation from '../components/Animation'
+import JSONData from "../content/mycontent.json"
+
 
 class IndexPage extends React.Component {
 
@@ -103,6 +105,15 @@ class IndexPage extends React.Component {
   }
 
   render() {
+    let imageOrCanvas = (<div id='bgcanvas' >
+                            <Animation width={this.state.width} height={this.state.height}></Animation>
+                          </div>);
+    
+      if(JSONData.BackgroundURL && JSONData.BackgroundURL !== ""){
+        let backgroundURL = "url(" + JSONData.BackgroundURL + ")";
+        imageOrCanvas =  <div id='bg' style={{"backgroundImage":backgroundURL}}></div>
+      } 
+      
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
@@ -121,11 +132,10 @@ class IndexPage extends React.Component {
             />
             
           </div>
-          <div id='bg' >
-              <Animation width={this.state.width} height={this.state.height}></Animation>
-          </div>
+
+          {imageOrCanvas}
           <div style={{"position":"absolute", "width":"100%", "alignItems":"center", "bottom":"10px"}}>
-          <Footer timeout={this.state.timeout} />
+            <Footer timeout={this.state.timeout} />
           </div>
         </div>
       </Layout>
