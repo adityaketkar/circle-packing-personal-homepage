@@ -17,7 +17,7 @@
   </a>
 
   <p align="center">
-    A Customizable Artistic Personal Webpage Template
+    A Customizable Personal-Website Template, Ready to Deploy in 10 mins!
     <br />
     <br />
     <a href="https://adityaketkar.netlify.app/">View Demo</a>
@@ -52,11 +52,8 @@
 
 Want to have strong online presence without spending months coding up a website? 
 
-This project is a free, fast and customizable webpage template, made to deploy within 10 minutes!
+This project is a FREE, EASY and CUSTOMIZABLE webpage template, made to deploy within 10 minutes  with **NO CODING REQUIRED**!
 
-Use this webpage to quickly deploy your personal artistic website with no coding required.
-
-Of course, no software is perfect. Let me know your suggestions and feature requests here. You may also suggest changes by forking this repo and creating a pull request or opening an issue :)
 
 ### Built With
 * [Gatsby](https://gatsbyjs.org/)
@@ -113,6 +110,7 @@ git clone https://github.com/adityaketkar/circle-packing-personal-homepage.git
 3. Launch dev build using Gatsby
 ```sh
 cd circle-packing-personal-homepage
+npm install
 gatsby develop
 ```
 
@@ -129,6 +127,7 @@ gatsby develop
 
 ### Aesthetic!
 <kbd><img src="images/aesthetic.gif" /></kbd>
+
 
 
 <!-- ROADMAP -->
@@ -149,6 +148,8 @@ Contributions are what makes the open source community an amazing platform to le
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+
+Of course, no software is perfect. Let me know your suggestions and feature requests here. You may also suggest changes by forking this repo and creating a pull request or opening an issue :)
 
 
 <!-- LICENSE -->
