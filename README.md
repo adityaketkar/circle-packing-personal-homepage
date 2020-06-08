@@ -139,7 +139,7 @@ gatsby develop
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/adityaketkar/circle-packing-personal-homepage/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/adityaketkar/circle-packing-personal-homepage/issues) and [Github Kanban](https://github.com/adityaketkar/circle-packing-personal-homepage/projects/1) for a list of proposed features and known issues.
 
 
 
