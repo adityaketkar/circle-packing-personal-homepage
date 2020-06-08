@@ -8,11 +8,6 @@
 	"MainImage": "https://i.imgur.com/yQZNGdm.jpg",
 	"BackgroundURL": "",
 
-	"WorkContent": [
-		"I am currently full time Software Developer Engineer at Microsoft."
-	],
-	"WorkImage": "https://i.imgur.com/BHt1YKg.png",
-
 	"AboutImage": "https://i.imgur.com/5sOLND6.jpg",
 	"AboutContent": [
 		"I’m a Computer Science major by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
@@ -21,6 +16,10 @@
 		"I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
 	],
 
+	"WorkContent": [
+		"I am currently full time Software Developer Engineer at Microsoft."
+	],
+	"WorkImage": "https://i.imgur.com/BHt1YKg.png",
 	"InternshipsStartLine": "Previously, I have interned with :",
 	"InternShips": [{
 			"name": "Amazon India",

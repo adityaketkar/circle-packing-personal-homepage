@@ -64,6 +64,9 @@ This project is a FREE, EASY and CUSTOMIZABLE webpage template, made to deploy w
 <!-- GETTING STARTED -->
 ## Getting Started
 
+The whole tutorial is available in **video format** [here](http://www.youtube.com/watch?v=3A3OzXXQDug) : [![Walkthrough](http://img.youtube.com/vi/3A3OzXXQDug/0.jpg)](http://www.youtube.com/watch?v=3A3OzXXQDug)
+
+
 If you just want to use the template, no need to clone/download this repo. The following steps show how to launch your own website : 
 1. Click the following button 👇 (Make sure you have a Github account before starting)
 
@@ -89,7 +92,7 @@ Firstly, upload all the photos you want to use in your website to [imgur](https:
 
 8. All done! wait for 5 minutes, and visit the URL given to you by Netlify again to confirm changes. 
 	
-9. Leave a ⭐️ on this repo and share this with people you think can benefit from this project 🙂
+9. Share this repo with people you think can benefit from this project 🙂
 
 **Note** : Change the ```BackgroundURL``` value in ```mycontent.json``` to add a custom background (use imgur to host the background image). Leave it to ```""``` to use the default circle-packing background.
 
