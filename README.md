@@ -88,7 +88,7 @@ Firstly, upload all the photos you want to use in your website to [imgur](https:
 6. Edit the data present there according to your choice. You should be familiar with the JSON file format. If you're not, no big deal. Take a quick tutorial [here](https://www.youtube.com/watch?v=iiADhChRriM). 
 
 * On imgur, right click on your photo and select ``` Copy Image Location ```. Paste these links in the fields which require URL of photos in ```mycontent.json```
-* Array elements are rendered as seperate paragraphs for ```Description``` and ```*Content``` fields. The links are also to be input as Array of JS objects.
+* Array elements are rendered as seperate paragraphs for ```Description``` and ```*Content``` fields. The links are also to be input as Array of JS objects. Explaination on this can be found [here](https://github.com/adityaketkar/circle-packing-personal-homepage/wiki/Guidelines-for-editing-mycontent.json)
 
 7. When done with editing, check the ``` Commit directly to the master branch ``` radio box, add a relevant commit message and click on ``` Commit Changes ```
 
@@ -96,7 +96,7 @@ Firstly, upload all the photos you want to use in your website to [imgur](https:
 	
 9. Share this repo with people you think can benefit from this project 🙂
 
-**Note** : Change the ```BackgroundURL``` value in ```mycontent.json``` to add a custom background (use imgur to host the background image). Leave it to ```""``` to use the default circle-packing background.
+**Note** : Change the ```BackgroundURL``` value in ```mycontent.json``` to add a custom background (use imgur to host the background image). Leave it to ```""``` to use the default circle-packing background. Explaination on this can be found [here](https://github.com/adityaketkar/circle-packing-personal-homepage/wiki/Guidelines-for-editing-mycontent.json)
 
 ## For Developers
 If you want to contribute to the project or just compile it locally in development mode, follow these steps : 
