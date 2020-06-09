@@ -98,6 +98,11 @@ Firstly, upload all the photos you want to use in your website to [imgur](https:
 
 **Note** : Change the ```BackgroundURL``` value in ```mycontent.json``` to add a custom background (use imgur to host the background image). Leave it to ```""``` to use the default circle-packing background. Explaination on this can be found [here](https://github.com/adityaketkar/circle-packing-personal-homepage/wiki/Guidelines-for-editing-mycontent.json)
 
+### Possible Errors during Deploying
+* Your JSON syntax for `mycontent.json` might be faulty. Validate it using [this](https://jsonlint.com/) tool (Simply copy-paste the contents of `mycontent.json` on the website).
+
+If you're stuck at some point, feel free to raise an issue or reach out to me over any channel.
+
 ## For Developers
 If you want to contribute to the project or just compile it locally in development mode, follow these steps : 
 
