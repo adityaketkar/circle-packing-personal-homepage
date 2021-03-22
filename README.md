@@ -202,4 +202,4 @@ Project Link: [https://github.com/adityaketkar/circle-packing-personal-homepage]
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/adityaketkar
 [twitter-shield]: https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fadityaketkar%2Fcircle-packing-personal-homepage
-[twitter-url]:https://twitter.com/Ketkar_A
+[twitter-url]:https://twitter.com/adityaketkar
