@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import JSONData from "../content/mycontent.json"
+import JSONData from '../content/mycontent.json'
 
 class Main extends React.Component {
   render() {
@@ -30,13 +30,25 @@ class Main extends React.Component {
         >
           <h2 className="major">About Me</h2>
           <span className="image main">
-            <div >
+            <div>
               <img src={JSONData.AboutImage} alt="" />
             </div>
           </span>
           {/* <p> */}
-          {JSONData.AboutContent.map((item) => {
-            return (<div><br/>{item}</div>)
+          {JSONData.AboutContent.map(item => {
+            return (
+              <div
+                style={{
+                  fontFamily: 'Open Sans, sans-serif',
+                  fontWeight: '400',
+                  fontSize: 'medium',
+                  lineHeight: '1.5',
+                }}
+              >
+                <br />
+                {item}
+              </div>
+            )
           })}
           {/* </p> */}
           {/* not visible in gatsby build */}
@@ -58,21 +70,74 @@ class Main extends React.Component {
             <img src={JSONData.WorkImage} alt="" />
           </span>
 
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
             {JSONData.WorkContent}
-            <br/><br/>
+          </div>
+          <br />
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
             {JSONData.InternshipsStartLine}
-            <ul>
-              {JSONData.InternShips.map((item) => {
-              return (<li><a href={item.link}>{item.name}</a><br/></li>)
+          </div>
+          <ul>
+            {JSONData.InternShips.map(item => {
+              return (
+                <li
+                  style={{
+                    fontFamily: 'Open Sans, sans-serif',
+                    fontWeight: '400',
+                    fontSize: 'medium',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <a target="_blank" href={item.link}>
+                    {item.name}
+                  </a>
+                </li>
+              )
             })}
-            </ul>
+          </ul>
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
             {JSONData.ProjectsStartLine}
-            <ul>
-              {JSONData.Projects.map((item) => {
-              return (<li><a href={item.link}>{item.name}</a><br/></li>)
+          </div>
+          <ul>
+            {JSONData.Projects.map(item => {
+              return (
+                <li
+                  style={{
+                    fontFamily: 'Open Sans, sans-serif',
+                    fontWeight: '400',
+                    fontSize: 'medium',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <a target="_blank" href={item.link}>
+                    {item.name}
+                  </a>
+                </li>
+              )
             })}
-            </ul>
-          
+          </ul>
+
           {/* not visible in gatsby build */}
           {close}
           {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
@@ -88,16 +153,44 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major"> CV </h2>
-          {/* <span className="image main">
-            <img  />
-          </span> */}
-          {/* <p> */}
+          <div
+            style={{
+              fontFamily: 'Open Sans, sans-serif',
+              fontWeight: '400',
+              fontSize: 'large',
+              lineHeight: '1.9',
+            }}
+          >
             {JSONData.CVStartLine}
-            <br/><br/>
-            <div style={{"display":"flex", "justifyContent":"space-around"}}>
-              <a href={JSONData.CV} >CV </a>
-              <a href={JSONData.Resume} >Resume</a>
-            </div>
+          </div>
+          <br />
+          <br />
+          <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+            <a
+              style={{
+                fontFamily: 'Open Sans, sans-serif',
+                fontWeight: '400',
+                fontSize: 'large',
+                lineHeight: '1.5',
+              }}
+              target="_blank"
+              href={JSONData.CV}
+            >
+              CV{' '}
+            </a>
+            <a
+              style={{
+                fontFamily: 'Open Sans, sans-serif',
+                fontWeight: '400',
+                fontSize: 'large',
+                lineHeight: '1.5',
+              }}
+              target="_blank"
+              href={JSONData.Resume}
+            >
+              Resume
+            </a>
+          </div>
           {/* </p> */}
           {/* not visible in gatsby build */}
           {close}
@@ -114,7 +207,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action={JSONData.emailid} type="text/plain">
+          {/* <form method="post" action={JSONData.emailid} type="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -135,10 +228,11 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a
+                target="_blank"
                 href={JSONData.twitter}
                 className="icon fa-twitter"
               >
@@ -146,17 +240,26 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href={JSONData.facebook} className="icon fa-facebook">
+              <a
+                target="_blank"
+                href={JSONData.facebook}
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href={JSONData.medium} className="icon fa-medium">
+              <a
+                target="_blank"
+                href={JSONData.medium}
+                className="icon fa-medium"
+              >
                 <span className="label">Medium</span>
               </a>
             </li>
             <li>
               <a
+                target="_blank"
                 href={JSONData.github}
                 className="icon fa-github"
               >
@@ -165,6 +268,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
+                target="_blank"
                 href={JSONData.linkedin}
                 className="icon fa-linkedin"
               >
@@ -173,10 +277,20 @@ class Main extends React.Component {
             </li>
             <li>
               <a
+                target="_blank"
                 href={JSONData.wordpress}
                 className="icon fa-wordpress"
               >
                 <span className="label">Blog(deprecated)</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href={JSONData.linktree}
+                className="icon fa-link"
+              >
+                <span className="label">LinkTree</span>
               </a>
             </li>
           </ul>

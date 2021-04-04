@@ -1,68 +1,75 @@
 {
-	"Title": "Aditya Ketkar | Personal Webpage",
-	"Name": "Aditya Ketkar",
-	"Description": [
-		"Recent graduate from BITS Pilani. Passionate about Space Technology, Cognitive Modelling and Open Source.",
-		"I grab every chance I get to travel, learn and create."
-	],
-	"MainImage": "https://i.imgur.com/yQZNGdm.jpg",
-	"BackgroundURL": "",
+  "Title": "Aditya Ketkar | Personal Webpage",
+  "Name": "Aditya Ketkar",
+  "Description": [
+    "SDE @ Microsoft. Recent graduate from BITS Pilani. Passionate about Space Tech, Sports and Startups.",
+    "I grab every chance I get to travel, learn and create."
+  ],
+  "MainImage": "https://i.imgur.com/yQZNGdm.jpg",
+  "BackgroundURL": "",
 
-	"AboutImage": "https://i.imgur.com/5sOLND6.jpg",
-	"AboutContent": [
-		"I’m a Computer Science major by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
-		"If you can’t find me, it’s because I’m already cycling, off to a hike, or studying for an exam",
-		"I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.",
-		"I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
-	],
+  "AboutImage": "https://i.imgur.com/5sOLND6.jpg",
+  "AboutContent": [
+    "I’m a Software Engineer by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
+    "If you can’t find me, it’s because I’m already cycling, off to a hike, or cheering for Verstappen",
+    "I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.",
+    "I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
+  ],
 
-	"WorkContent": [
-		"I am currently full time Software Developer Engineer at Microsoft."
-	],
-	"WorkImage": "https://i.imgur.com/BHt1YKg.png",
-	"InternshipsStartLine": "Previously, I have interned with :",
-	"InternShips": [{
-			"name": "Amazon India",
-			"link": "#"
-		},
-		{
-			"name": "North-Eastern Space Application Center (ISRO)",
-			"link": "https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view"
-		},
-		{
-			"name": "Computer Vision Center, Universitat Autonoma de Barcelona",
-			"link": "https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing"
-		}
-	],
-	"ProjectsStartLine": "Some of the side projects I did can be found here :",
-	"Projects": [{
-			"name": "EisenList",
-			"link": "https://github.com/adityaketkar/eisenlist"
-		},
-		{
-			"name": "DelOr",
-			"link": "https://bitsdelor.wixsite.com/delor"
-		},
-		{
-			"name": "Alexa Music Companion",
-			"link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
-		},
-		{
-			"name": "Gatsby Personal Webpage",
-			"link": "https://github.com/adityaketkar/circle-packing-personal-homepage"
-		}
-	],
+  "WorkContent": [
+    "I am currently SDE-1 at Microsoft. I also lead the tech team @ EdMad.co"
+  ],
+  "WorkImage": "https://i.imgur.com/BHt1YKg.png",
+  "InternshipsStartLine": "Previously, I have interned with :",
+  "InternShips": [
+    {
+      "name": "Amazon India",
+      "link": "#"
+    },
+    {
+      "name": "North-Eastern Space Application Center (ISRO) ↗",
+      "link": "https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view"
+    },
+    {
+      "name": "Computer Vision Center, Universitat Autonoma de Barcelona  ↗",
+      "link": "https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing"
+    }
+  ],
+  "ProjectsStartLine": "Some of my other works can be found here :",
+  "Projects": [
+    {
+      "name": "EdMad  ↗",
+      "link": "https://edmad.co"
+    },
+    {
+      "name": "DelOr  ↗",
+      "link": "https://bitsdelor.wixsite.com/delor"
+    },
+    {
+      "name": "EisenList  ↗",
+      "link": "https://github.com/adityaketkar/eisenlist"
+    },
+    {
+      "name": "Alexa Music Companion  ↗",
+      "link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
+    },
+    {
+      "name": "Gatsby Personal Webpage  ↗",
+      "link": "https://github.com/adityaketkar/circle-packing-personal-homepage"
+    }
+  ],
 
-	"CVStartLine": "I am always open to collaborations with impactful work. Feel free to reach out if you want to work together :) ",
-	"CV": "https://www.visualcv.com/aditya-ketkar/",
-	"Resume": "https://drive.google.com/file/d/1M1Vw1J7Yc3BFIgzJXX4_U-_nfIXCfK8n/view?usp=sharing",
+  "CVStartLine": "I am always open to collaborations with impactful work. Feel free to reach out if you want to work together 💪 ",
+  "CV": "https://www.visualcv.com/aditya-ketkar/",
+  "Resume": "https://drive.google.com/file/d/1zYV1lTNuGbMaB5-vnaGY5x-gnb9kAwWX/view?usp=sharing",
 
-	"emailid": "mailto:adityaketkar848@gmail.com",
-	"linkedin": "https://linkedin.com/in/adityaketkar",
-	"wordpress": "https://technoshblog.wordpress.com/",
-	"facebook": "https://www.facebook.com/aditya",
-	"github": "https://github.com/adityaketkar",
-	"instagram": "http://www.adityaketkar.me",
-	"twitter": "https://twitter.com/ketkar_a",
-	"medium": "https://medium.com/@ketkaraditya"
+  "emailid": "mailto:adityaketkar848@gmail.com",
+  "linkedin": "https://linkedin.com/in/adityaketkar",
+  "wordpress": "https://technoshblog.wordpress.com/",
+  "facebook": "https://www.facebook.com/aditya",
+  "github": "https://github.com/adityaketkar",
+  "instagram": "http://www.adityaketkar.me",
+  "twitter": "https://twitter.com/adityaketkar",
+  "medium": "https://medium.com/@ketkaraditya",
+  "linktree": "https://linktr.ee/ketkar"
 }

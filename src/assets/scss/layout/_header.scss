@@ -20,8 +20,6 @@
   );
   background: rgba(255, 255, 255, 0.098);
   // border: 1px solid black;
-  
-  
 
   // background-image: -moz-radial-gradient(
   //   rgba(0, 0, 0, 0.25) 25%,
@@ -82,10 +80,9 @@
   }
 
   .backdrop-blur {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
-  
   .content {
     border-style: solid;
     border-color: _palette(border);
@@ -121,7 +118,7 @@
   }
 
   nav {
-    background-color: rgba(255, 255, 255, .6);    
+    background-color: rgba(255, 255, 255, 0.6);
     ul {
       @include vendor('display', 'flex');
       margin-bottom: 0;
@@ -265,15 +262,15 @@
     }
 
     nav {
-      background-color: rgba(255, 255, 255, .6);
+      background-color: rgba(255, 255, 255, 0.6);
       ul {
-        background-color: rgba(255, 255, 255, .6);
+        background-color: rgba(255, 255, 255, 0.6);
         @include vendor('flex-direction', 'column');
         min-width: 10rem;
         max-width: 100%;
 
         li {
-          background-color: rgba(255, 255, 255, .6);
+          background-color: rgba(255, 255, 255, 0.6);
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
 
