@@ -48,6 +48,10 @@
       display: block !important;
     }
 
+    &.active::-webkit-scrollbar {
+      display: none;
+    }
+
     .close {
       display: block;
       position: absolute;

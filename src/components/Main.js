@@ -13,8 +13,6 @@ class Main extends React.Component {
       ></div>
     )
 
-    // let closeStyle = {"display":"inline-block","position":"absolute", "top":"0px", "right":"0px", "margin-right":"3%","margin-top":"3%", "cursor":"pointer"};
-
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -26,7 +24,13 @@ class Main extends React.Component {
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
         >
           <h2 className="major">About Me</h2>
           <span className="image main">
@@ -63,7 +67,13 @@ class Main extends React.Component {
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
         >
           <h2 className="major">Work</h2>
           <span className="image main">
