@@ -154,7 +154,128 @@ class Main extends React.Component {
             ← Back
           </div> */}
         </article>
+        {JSONData.showTalksAndBlogTab && (
+          <article
+            id="talks"
+            className={`${this.props.article === 'talks' ? 'active' : ''} ${
+              this.props.articleTimeout ? 'timeout' : ''
+            }`}
+            style={{
+              display: 'none',
+              height: '90vh',
+              overflow: 'auto',
+              scrollbarWidth: 'none',
+              msOverflowStyle: 'none',
+            }}
+          >
+            <h2
+              style={{
+                fontWeight: '700',
+              }}
+              className="major"
+            >
+              Talks
+            </h2>
+            <div
+              style={{
+                fontFamily: 'Open Sans, sans-serif',
+                fontWeight: '400',
+                fontSize: 'medium',
+                lineHeight: '1.5',
+              }}
+            >
+              {JSONData.TalksAndBlogsTopContent}
+            </div>
+            <br />
+            <div
+              style={{
+                fontFamily: 'Open Sans, sans-serif',
+                fontWeight: '400',
+                fontSize: 'medium',
+                lineHeight: '1.5',
+              }}
+            >
+              {JSONData.TalkIntroLine}
+            </div>
+            <ul>
+              {JSONData.Talks.map(item => {
+                return (
+                  <li style={{ marginBottom: '25px' }}>
+                    <h3
+                      style={{
+                        fontWeight: '700',
+                      }}
+                    >
+                      {item.talkTitle}
+                    </h3>
+                    <p
+                      style={{
+                        fontFamily: 'Fira Mono, monospace',
+                        fontWeight: '100',
+                        fontSize: 'small',
+                        lineHeight: '1.5',
+                        marginBottom: '15px',
+                      }}
+                    >
+                      {item.talkDescription}
+                    </p>
+                    {item.links.map(linkItem => {
+                      return (
+                        <a
+                          style={{
+                            marginRight: '10px',
+                            lineHeight: '1.5',
+                          }}
+                          target="_blank"
+                          href={linkItem.url}
+                        >
+                          {linkItem.linkTitle}
+                        </a>
+                      )
+                    })}
+                  </li>
+                )
+              })}
+            </ul>
+            <hr />
+            <h2 style={{ fontWeight: '700' }}>Blogs</h2>
+            <div
+              style={{
+                fontFamily: 'Open Sans, sans-serif',
+                fontWeight: '400',
+                fontSize: 'medium',
+                lineHeight: '1.5',
+              }}
+            >
+              {JSONData.BlogsIntroLine}
+            </div>
+            <br />
+            <ul>
+              {JSONData.Blogs.map(item => {
+                return (
+                  <li
+                    style={{
+                      fontFamily: 'Fira Mono, monospace',
+                      fontWeight: '400',
+                      fontSize: 'medium',
+                      lineHeight: '1.8',
+                    }}
+                  >
+                    <a target="_blank" href={item.link}>
+                      {item.blogTitle}
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
 
+            {/* not visible in gatsby build */}
+            {close}
+            {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
+          </article>
+        )}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -216,7 +337,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Connect</h2>
           {/* <form method="post" action={JSONData.emailid} type="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>

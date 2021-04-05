@@ -58,6 +58,56 @@
       "link": "https://github.com/adityaketkar/circle-packing-personal-homepage"
     }
   ],
+  "showTalksAndBlogTab": true,
+  "TalksAndBlogsTopContent": "I actively attend events to gain and share my knowledge. If you have an event/talk/panel which I can be a part of in any way (to 🗣 or 👂 or both), feel free to reach out at adityaketkar848[ at ]gmail[ dot ]com",
+  "TalkIntroLine": "",
+  "Talks": [
+    {
+      "talkTitle": "Front End Patterns for ⚡ Performance",
+      "talkMetadata": "@ Microsoft, March 2021",
+      "talkDescription": "A live and interactive deep dive into frontend-performance optimization with patterns like CSR, SPAs, SSR, SSG, ISG etc (👻). A comparative study of technologies behind Amazon, Gmail, Netflix along with some quick wins for perf improvements",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/13yhcpI_CwCU0np_tzTAUJGNci4hSGme3/view?usp=sharing",
+          "linkTitle": "Slides (pdf) ↗"
+        },
+        {
+          "url": "https://drive.google.com/file/d/19J08czyywp7JCioK8eDQ2Li83zW3bc3C/view?usp=sharing",
+          "linkTitle": "Slides with videos (pptx)  ↗"
+        }
+      ]
+    },
+    {
+      "talkTitle": "Resume Drafting 101",
+      "talkMetadata": "@ EdMad, July 2020",
+      "talkDescription": "Zero to hero in drafting and maintaining a killer resume, all in 30 mins. A talk for final and pre-final year students and people looking to up their resume game 💪",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/19vIO2utgN8zpioxbrRW8TtXIiHBBBTbk/view?usp=sharing",
+          "linkTitle": "Slides  ↗"
+        }
+      ]
+    }
+  ],
+  "BlogsIntroLine": "Here are some of my blog posts you might enjoy : ",
+  "Blogs": [
+    {
+      "blogTitle": "Hey Alexa, meet Music 🎵",
+      "link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
+    },
+    {
+      "blogTitle": "7 actionable steps to ace your coding interview 👩‍💻",
+      "link": "https://www.linkedin.com/pulse/7-actionable-steps-ace-your-coding-interview-aditya-ketkar?trk=public_profile_article_view"
+    },
+    {
+      "blogTitle": "Tech Interview Prep Series 👨‍💼",
+      "link": "https://edmad.co/blog"
+    },
+    {
+      "blogTitle": "Jagriti Yatra Series 🚂 🌎",
+      "link": "https://ketkar.medium.com/jagrati-yatra-day-1-d30725cf8f71"
+    }
+  ],
 
   "CVStartLine": "I am always open to collaborations with impactful work. Feel free to reach out if you want to work together 💪 ",
   "CV": "https://www.visualcv.com/aditya-ketkar/",
@@ -66,10 +116,10 @@
   "emailid": "mailto:adityaketkar848@gmail.com",
   "linkedin": "https://linkedin.com/in/adityaketkar",
   "wordpress": "https://technoshblog.wordpress.com/",
-  "facebook": "https://www.facebook.com/aditya",
+  "facebook": "https://www.facebook.com/aditya.ketkar.520",
   "github": "https://github.com/adityaketkar",
   "instagram": "http://www.adityaketkar.me",
   "twitter": "https://twitter.com/adityaketkar",
-  "medium": "https://medium.com/@ketkaraditya",
+  "medium": "https://ketkar.medium.com/",
   "linktree": "https://linktr.ee/ketkar"
 }

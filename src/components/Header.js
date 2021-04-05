@@ -77,6 +77,21 @@ const Header = props => (
             Work
           </button>
         </li>
+        {JSONData.showTalksAndBlogTab && (
+          <li>
+            <button
+              onClick={() => {
+                props.onOpenArticle('talks')
+              }}
+              style={{
+                fontFamily: 'Fira Mono, monospace',
+                fontWeight: '200',
+              }}
+            >
+              Talks+Blogs
+            </button>
+          </li>
+        )}
         <li>
           <button
             onClick={() => {
@@ -100,7 +115,7 @@ const Header = props => (
               fontWeight: '200',
             }}
           >
-            Contact
+            Connect
           </button>
         </li>
       </ul>
