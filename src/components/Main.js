@@ -204,10 +204,19 @@ class Main extends React.Component {
                     <h3
                       style={{
                         fontWeight: '700',
+                        marginBottom: 0,
                       }}
                     >
                       {item.talkTitle}
                     </h3>
+                    <span
+                      style={{
+                        marginTop: 0,
+                        fontSize: 'small',
+                      }}
+                    >
+                      {item.talkMetadata}
+                    </span>
                     <p
                       style={{
                         fontFamily: 'Fira Mono, monospace',
@@ -215,6 +224,7 @@ class Main extends React.Component {
                         fontSize: 'small',
                         lineHeight: '1.5',
                         marginBottom: '15px',
+                        marginTop: '10px',
                       }}
                     >
                       {item.talkDescription}
