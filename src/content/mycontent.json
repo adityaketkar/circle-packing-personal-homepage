@@ -2,26 +2,30 @@
   "Title": "Aditya Ketkar | Personal Webpage",
   "Name": "Aditya Ketkar",
   "Description": [
-    "SDE @ Microsoft. Recent graduate from BITS Pilani. Passionate about Space Tech, Sports and Startups.",
-    "I grab every chance I get to travel, learn and create."
+    "Co-founder & CTO @ Telematica.So (YC W22), building future of connected mobility",
+    "Previously software engineer at Microsoft and Amazon. Passionate about Sustainability, Space Tech, Sports and Startups"
   ],
-  "MainImage": "https://i.imgur.com/yQZNGdm.jpg",
+  "MainImage": "https://i.imgur.com/xY1sKIF.jpg",
   "BackgroundURL": "",
 
   "AboutImage": "https://i.imgur.com/5sOLND6.jpg",
   "AboutContent": [
-    "I’m a Software Engineer by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
-    "If you can’t find me, it’s because I’m already cycling, off to a hike, or cheering for Verstappen",
+    "I’m an engineer by day, a sports enthusiast by evening and a hustler always.",
+    "If you can’t find me, it’s because I’m cycling, off to a hike, or cheering for my favorite teams!",
     "I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.",
-    "I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
+    "I love the way the concept of \"work\" has evolved over the past years, and enjoy to travel and work together whenever I can."
   ],
 
   "WorkContent": [
-    "I am currently SDE-1 at Microsoft. I also lead the tech team @ EdMad.co"
+    "Currently, I lead the enginnering team at Telematica"
   ],
-  "WorkImage": "https://i.imgur.com/BHt1YKg.png",
-  "InternshipsStartLine": "Previously, I have interned with :",
+  "WorkImage": "https://i.imgur.com/2Al2kWb.png",
+  "InternshipsStartLine": "Previously, I have worked with :",
   "InternShips": [
+    {
+      "name" : "Microsoft",
+      "link" : "#"
+    },
     {
       "name": "Amazon India",
       "link": "#"
@@ -92,6 +96,10 @@
   "BlogsIntroLine": "Here are some of my blog posts you might enjoy : ",
   "Blogs": [
     {
+      "blogTitle": "My Second Brain 🧠",
+      "link": "https://ketkar.me"
+    },
+    {
       "blogTitle": "Hey Alexa, meet Music 🎵",
       "link": "https://medium.com/@ketkaraditya/hey-alexa-meet-music-1f7319750af7"
     },
@@ -113,12 +121,12 @@
   "CV": "https://www.visualcv.com/aditya-ketkar/",
   "Resume": "https://drive.google.com/file/d/1zYV1lTNuGbMaB5-vnaGY5x-gnb9kAwWX/view?usp=sharing",
 
-  "emailid": "mailto:adityaketkar848@gmail.com",
+  "emailid": "mailto:aditya@ketkar.me",
   "linkedin": "https://linkedin.com/in/adityaketkar",
   "wordpress": "https://technoshblog.wordpress.com/",
   "facebook": "https://www.facebook.com/aditya.ketkar.520",
   "github": "https://github.com/adityaketkar",
-  "instagram": "http://www.adityaketkar.me",
+  "instagram": "https://www.instagram.com/aditya_ketkar_",
   "twitter": "https://twitter.com/adityaketkar",
   "medium": "https://ketkar.medium.com/",
   "linktree": "https://linktr.ee/ketkar"
